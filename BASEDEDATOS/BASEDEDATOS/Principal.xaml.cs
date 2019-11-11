@@ -49,7 +49,8 @@ namespace BASEDEDATOS
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            BASEDEDATOS.Window1 form = new BASEDEDATOS.Window1();
+            form.ShowDialog();
         }
     }
 }
